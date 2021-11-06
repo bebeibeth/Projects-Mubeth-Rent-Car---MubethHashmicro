@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- This Menu Item will appear in the Upper bar, that's why It needs NO parent or action -->
+        <menuitem id="mubethrentcar_menu_root" name="Mubeth Rent Car" sequence="10"/>
+
+        <menuitem id="mubethrentcar_datamaster_menu_categ" 
+            name="Operasional" 
+            parent="mubethrentcar_menu_root" 
+            sequence="11"/> 
+
+        <menuitem id="mubethrentcar_contact_menu_categ" 
+            name="Data Contact" 
+            parent="mubethrentcar_menu_root" 
+            sequence="30"/> 
+
+        <menuitem id="mubethrentcar_ordermobil_menu_act"
+            name="Order Mobil"
+            parent="mubethrentcar_menu_root"
+            sequence="5"/>
+
+    </data>
+</odoo>

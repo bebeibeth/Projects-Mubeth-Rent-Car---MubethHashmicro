@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mubethrentcar_jenismobil,access.mubethrentcar.jenismobil,model_mubethrentcar_jenismobil,,1,1,1,1
+access_mubethrentcar_service,access.mubethrentcar.service,model_mubethrentcar_service,,1,1,1,1
+access_mubethrentcar_ordermobil,access.mubethrentcar.ordermobil,model_mubethrentcar_ordermobil,,1,1,1,1
+access_mubethrentcar_detailorder,access.mubethrentcar.detailorder,model_mubethrentcar_detailorder,,1,1,1,1
